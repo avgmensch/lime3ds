@@ -1,21 +1,19 @@
-# Maintainer: username227 <gfrank227 at gmail dot com>
-# Maintainer: HurricanePootis <hurricanepootis@protonmail.com>
-# The pkgbuild is based on the original pkgbuild for citra.
+# Maintainer: AverageMensch (https://github.com/avgmensch)
+# The pkgbuild is based on the lime3ds package from the AUR.
 
 pkgname=lime3ds
 pkgver=2119.1
 pkgrel=1
 arch=('x86_64')
-pkgdesc='An experimental open-source Nintendo 3DS emulator/debugger'
-url='https://github.com/Lime3DS/Lime3DS'
+pkgdesc='An discontinued open-source Nintendo 3DS emulator/debugger'
+url='https://github.com/Lime3DS/lime3ds-archive'
 license=('GPL-2.0-or-later')
-depends=('sdl2' 'mbedtls' 'speexdsp' 'qt6-base' 'qt6-multimedia' 'ffmpeg' 'libfdk-aac' 'libusb' 'openssl' 'glibc' 'gcc-libs' 'sndio' 'zstd' 'soundtouch' 'fmt' 'libinih' 'openal' 'enet' 'zydis' 'boost-libs'
-	 'glslang' 'hicolor-icon-theme')
+depends=('sdl2' 'mbedtls' 'speexdsp' 'qt6-base' 'qt6-multimedia' 'ffmpeg' 'libfdk-aac' 'libusb' 'openssl' 'glibc' 'gcc-libs' 'sndio' 'zstd' 'soundtouch' 'fmt' 'libinih' 'openal' 'enet' 'zydis' 'boost-libs' 'glslang' 'hicolor-icon-theme')
 makedepends=('git' 'cmake' 'python' 'doxygen' 'rapidjson' 'llvm' 'qt6-tools' 'gcc' 'vulkan-headers' 'nlohmann-json' 'catch2' 'clang' 'ninja' 'boost')
 conflicts=('lime3ds-appimage' 'lime3ds-git')
 options=('!lto')
-source=("https://github.com/Lime3DS/Lime3DS/releases/download/$pkgver/$pkgname-unified-source-$pkgver.tar.xz")
-md5sums=('60aeb81bb0825594cfed33dbc29dd4a8')
+source=("https://github.com/Lime3DS/lime3ds-archive/releases/download/$pkgver/$pkgname-unified-source-$pkgver.tar.xz")
+sha256sums=('1bd7be965f0b58e368556283c861082c25b971bc5c653d36ff3179e6df34541a')
 
 build() {
     # Fix to help cmake find libusb
