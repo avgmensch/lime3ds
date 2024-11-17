@@ -6,6 +6,20 @@ This package provides an updated [PKGBUILD](https://wiki.archlinux.org/title/PKG
 
 I made this package because I am not sure when (or even if) the [`lime3ds`](https://aur.archlinux.org/packages/lime3ds) package from the AUR will be updated, and I wanted to use the latest Lime3DS version.
 
+## Install instructions
+
+To install the package with [yay](https://github.com/Jguer/yay) follow these instructions:
+
+> [!WARNING]  
+> Attempting to cleanBuild the package will abort the operation and yield on exit code of 128.
+
+```sh
+git clone https://github.com/avgmensch/lime3ds.git
+yay -Bi ./lime3ds
+```
+
+yay will handle things like installing dependencies and removing make-dependencies after the build.
+
 ## Changes
 
 I made the following changes to the PKGBUILD file:
