@@ -11,7 +11,7 @@ I made this package because I am not sure when (or even if) the [`lime3ds`](http
 To install the package with [yay](https://github.com/Jguer/yay) follow these instructions:
 
 > [!WARNING]  
-> Attempting to cleanBuild the package will abort the operation and yield on exit code of 128.
+> Attempting to cleanBuild the package will abort the operation and yield an exit code of 128.
 
 ```sh
 git clone https://github.com/avgmensch/lime3ds.git
@@ -40,4 +40,4 @@ I am not affiliated with
 - the Azahar project nor
 - Nintendo.
 
-For more information on the PKGBUILD's license see [LICENSE.md](./LICENSE.md)
+For more information on the PKGBUILD's license see [LICENSE.txt](./LICENSE.txt)
