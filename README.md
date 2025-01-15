@@ -27,7 +27,7 @@ I made the following changes to the PKGBUILD file:
 - update maintainer and fork-notice
 - change "experimental" to "discontinued" in `pkgdesc`
 - change the `url` to the new [GitHub-repository](https://github.com/Lime3DS/lime3ds-archive)
-- break down the the `depends` array to one line
+- break down the `depends` array to one line
 - update the repository name in the `source` array
 - change the checksum from MD5 to SHA256
 
@@ -40,4 +40,4 @@ I am not affiliated with
 - the Azahar project nor
 - Nintendo.
 
-For more information on the PKGBUILD's license see [LICENSE.txt](./LICENSE.txt)
+For more information on the PKGBUILD's license, see [LICENSE.txt](./LICENSE.txt)

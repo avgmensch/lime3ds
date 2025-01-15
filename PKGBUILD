@@ -1,5 +1,5 @@
 # Maintainer: AverageMensch (https://github.com/avgmensch)
-# The pkgbuild is based on the lime3ds package from the AUR.
+# The PKGBUILD is based on the lime3ds package from the AUR.
 
 pkgname=lime3ds
 pkgver=2119.1
